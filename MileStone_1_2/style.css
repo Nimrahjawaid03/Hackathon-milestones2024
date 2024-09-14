@@ -1,0 +1,128 @@
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: pink;
+    height: 100vh;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Image Section */
+  .image-section {
+    margin-bottom: 20px;
+  }
+  
+  .image-section img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Button Section */
+  .button-section {
+    margin-bottom: 20px;
+  }
+  
+  .button-section button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: deeppink;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .button-section button:hover {
+    background-color: purple;
+  }
+  
+  /* Content Section */
+  .content-section {
+    width: 86%;
+    background-color: deeppink;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    margin: auto;
+  }
+  
+  .content {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid purple;
+    
+  }
+  
+  p, ul {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+
+  /* Responsive Design */
+
+  @media (max-width: 830px) {
+    .button-section button {
+      width: 50%;
+      margin: 5px 0;
+    }
+  
+    .content-section {
+      padding: 10px;
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .button-section button {
+      width: 50%;
+      margin: 5px 0;
+    }
+  
+    .content-section {
+      padding: 10px;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 420px) {
+    .button-section button {
+      width: 100%;
+      margin: 5px 0;
+    }
+  
+    .content-section {
+      padding: 10px;
+      width: 100%;
+    }
+  }
+  
